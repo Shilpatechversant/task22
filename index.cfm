@@ -15,13 +15,13 @@
                 <th>Location</th>
                 </tr>
                 <cfloop array ="#result#" index="row">
-                <cfoutput>
-                    <tr>
-                    <td>#row.Name#</td>
-                    <td>#row.Age#</td>
-                    <td>#row.LOCATION#</td>
-                    </tr>
-                </cfoutput>
+                    <cfoutput>
+                        <tr>
+                        <td>#row.Name#</td>
+                        <td>#row.Age#</td>
+                        <td>#row.LOCATION#</td>
+                        </tr>
+                    </cfoutput>
                 </cfloop>
             </table>
         </div>
